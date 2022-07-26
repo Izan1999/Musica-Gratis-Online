@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="es">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <title>Musica Online | Pop</title>
+</head>
+
+<body id="body">
+  
+  <!--CODIGO NAV EMPIEZA AQUÍ-->
+  
+  <div id="nav">
+    <i class='bx bx-menu' id="btn-menu" onclick="desplegar()"></i>
+  </div>
+  
+  <!--CODIGO SIDEMENU EMPIEZA AQUI-->
+  
+  <div id="sidemenu">
+    
+    <div id="menu-item">
+      <i class="bx bx-x" id="menu-icon" oncli></i>
+      <a href="#" onclick="plegar()">Cerrar Menú</a>
+    </div>
+    
+    <div id="menu-item">
+      <i class="bx bx-music" id="menu-icon"></i>
+      <a href="index.html">Bizarrap Music Sessions</a>
+    </div>
+    
+    <div id="menu-item">
+      <i class="bx bx-music" id="menu-icon"></i>
+      <a href="pop.html">Música Pop</a>
+    </div>
+    
+    <div id="menu-item">
+      <i class="bx bxl-instagram" id="menu-icon"></i>
+      <a href="https://www.instagram.com/izan_alcoy">Contacto</a>
+    </div>
+    
+  </div>
+  
+  <h2>Música Pop</h2>
+  
+  <div id="container">
+    
+    <div id="items">
+      <div id="imagen-titulo">
+        <img src="imagenes/speedofsound.jpg">
+        <span>Coldplay - <br>Speed of Sound</span>
+      </div>
+    
+      <div id="botones">
+        <i class='bx bx-play' id="boton" onclick="speedofsound.play()"></i>
+        <i class='bx bx-pause' id="boton" onclick="speedofsound.pause()"></i>
+        <i class='bx bx-stop' id="boton" onclick="speedofsoundstop()"></i>
+        <a href="sonidos/speedofsound.mp3" download><i class='bx bx-download' id="boton"></i></a>
+      </div>
+    </div>
+    
+    
+    <div id="items">
+      <div id="imagen-titulo">
+        <img src="imagenes/blindinglights.jpg">
+        <span>The Weekend - <br>Blinding lights</span>
+      </div>
+    
+      <div id="botones">
+        <i class='bx bx-play' id="boton" onclick="blindinglights.play()"></i>
+        <i class='bx bx-pause' id="boton" onclick="blindinglights.pause()"></i>
+        <i class='bx bx-stop' id="boton" onclick="blindinglightsstop()"></i>
+        <a href="sonidos/blindinglights.mp3" download><i class='bx bx-download' id="boton"></i></a>
+      </div>
+    </div>
+    
+    <div id="items">
+      <div id="imagen-titulo">
+        <img src="imagenes/getlucky.jpg">
+        <span>Daft Punk - <br>Get lucky</span>
+      </div>
+    
+      <div id="botones">
+        <i class='bx bx-play' id="boton" onclick="getlucky.play()"></i>
+        <i class='bx bx-pause' id="boton" onclick="getlucky.pause()"></i>
+        <i class='bx bx-stop' id="boton" onclick="getluckystop()"></i>
+        <a href="sonidos/getlucky.mp3" download><i class='bx bx-download' id="boton"></i></a>
+      </div>
+    </div>
+    
+    <div id="items">
+      <div id="imagen-titulo">
+        <img src="imagenes/someoneyouloved.jpg">
+        <span>Lewis Capaldi - <br>Someone you loved</span>
+      </div>
+    
+      <div id="botones">
+        <i class='bx bx-play' id="boton" onclick="someoneyouloved.play()"></i>
+        <i class='bx bx-pause' id="boton" onclick="someoneyouloved.pause()"></i>
+        <i class='bx bx-stop' id="boton" onclick="someoneyoulovedstop()"></i>
+        <a href="sonidos/someoneyouloved.mp3" download><i class='bx bx-download' id="boton"></i></a>
+      </div>
+    </div>
+    
+  </div>
+  
+  </body>
+  </html>
